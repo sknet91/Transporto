@@ -4,7 +4,7 @@ Prueba técnica para Transporto, Aplicación para la gestión y control de tarea
 
 ## Demo
 
-Una vista previa de la aplicacion
+Una vista previa de la aplicación.
 
 ![image](https://github.com/sknet91/Transporto/assets/11862310/44afbca8-4fd8-4824-9ae4-8219ff3cb806)
 
