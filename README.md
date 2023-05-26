@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# TaskManager - Assessment Transporto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prueba tecnica para Transporto, Aplicacion para la gestion y control de tareas.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Una vista previa de la aplicacion
 
-### `npm start`
+![image](https://github.com/sknet91/Transporto/assets/11862310/44afbca8-4fd8-4824-9ae4-8219ff3cb806)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requerimientos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Cuando le dé clic a cualquier botón, me debe mostrar una página con un botón que diga “Finalizar tarea #X” (la X depende de la tarea), y cuando le dé clic a ese botón, me debe llevar de nuevo a la página de las 6 tarjetas, escondiendo el botón de la tarjeta que acabo de realizar. (Siguiendo buenas practicas para el diseño UX cambie mostrar una pagina por una ventana modal, no dimensione la posibilidad de que se quisiera revisar react router)
 
-### `npm test`
+- Obligatoriamente debo comenzar por el paso #1, si le doy clic inicialmente a otra tarea sin haber terminado la #1, me debe salir un mensaje que me recuerde que debo finalizar la tarea #1 primero.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Si le doy clic a la tarea #3.2 sin haber terminado la #3.1, me debe salir un mensaje que me recuerde que debo finalizar la tarea #3.1 primero.
 
-### `npm run build`
+- Si le doy clic a la tarea #4.1 sin haber terminado la #3.2, me debe salir un mensaje que me recuerde que debo finalizar la tarea #3.2 primero.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Si le doy clic a la tarea #5.2 sin haber terminado la #5.1, me debe salir un mensaje que me recuerde que debo finalizar la tarea #5.1 primero.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- El resto de tareas se pueden hacer en el orden que se quiera.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalacion
 
-### `npm run eject`
+Clonar el repositorio:
+    git clone https://github.com/sknet91/Transporto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Moverse a la raiz del proyecto:
+    cd Transporto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instala dependencias:
+    npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Uso
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ejecuta la aplicacion:
+    npm start
 
-## Learn More
+Abre la siguiente url:
+    http://localhost:3000/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ya puedes utilizar la aplicacion, no olvides los requerimientos.
