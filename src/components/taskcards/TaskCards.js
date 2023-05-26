@@ -86,16 +86,12 @@ const TaskCards = () => {
       } else {
         message = `Recuerde que debe finalizar la tarea #${requiredTaskNumber} primero.`;
       }
-      toast.error(message, {
-        icon: "🚨",
-      });
+      toast.error(message);
       return false;
     }
 
     if (task !== 1 && !completedTasks.includes(1)) {
-      toast.error("Recuerde que debe finalizar la tarea #1 primero.", {
-        icon: "🚨",
-      });
+      toast.error("Recuerde que debe finalizar la tarea #1 primero.");
       return false;
     }
 
@@ -118,7 +114,7 @@ const TaskCards = () => {
     <div className="container">
       <Title text="Panel de tareas" />
       <div className="row">{renderTaskCards()}</div>
-      <Modal show={selectedTask !== null} onHide={handleCloseModal}>
+      <Modal show={selectedTask !== null} onHide={handleCloseModal} backdrop="static" keyboard={false}>
         <Modal.Header closeButton>
           <Modal.Title>Finalizar tarea #{selectedTask}</Modal.Title>
         </Modal.Header>
@@ -137,7 +133,7 @@ const TaskCards = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-      <ToastContainer theme="dark" />
+      <ToastContainer />
     </div>
   );
 };

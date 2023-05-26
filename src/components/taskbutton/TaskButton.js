@@ -6,10 +6,10 @@ const TaskButton = ({ task, isCompleted, onClick }) => {
 
   return (
     <Button
-      variant={isCompleted ? 'secondary' : 'primary'}
+      variant={isCompleted ? 'dark' : 'light'}
       disabled={isCompleted}
       onClick={onClick}
-      className="m-1"
+      className="m-1 p-2 rounded-3"
     >
       {buttonLabel}
     </Button>
