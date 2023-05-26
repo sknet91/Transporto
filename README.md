@@ -1,6 +1,6 @@
 # TaskManager - Assessment Transporto
 
-Prueba tecnica para Transporto, Aplicacion para la gestion y control de tareas.
+Prueba técnica para Transporto, Aplicación para la gestión y control de tareas.
 
 ## Demo
 
@@ -10,7 +10,7 @@ Una vista previa de la aplicacion
 
 ## Requerimientos
 
-- Cuando le dé clic a cualquier botón, me debe mostrar una página con un botón que diga “Finalizar tarea #X” (la X depende de la tarea), y cuando le dé clic a ese botón, me debe llevar de nuevo a la página de las 6 tarjetas, escondiendo el botón de la tarjeta que acabo de realizar. (Siguiendo buenas practicas para el diseño UX cambie mostrar una pagina por una ventana modal, no dimensione la posibilidad de que se quisiera revisar react router)
+- Cuando le dé clic a cualquier botón, me debe mostrar una página con un botón que diga “Finalizar tarea #X” (la X depende de la tarea), y cuando le dé clic a ese botón, me debe llevar de nuevo a la página de las 6 tarjetas, escondiendo el botón de la tarjeta que acabo de realizar. (Siguiendo buenas prácticas para el diseño UX cambie mostrar una página por una ventana modal, no dimensioné la posibilidad de que se quisiera revisar react router)
 
 - Obligatoriamente debo comenzar por el paso #1, si le doy clic inicialmente a otra tarea sin haber terminado la #1, me debe salir un mensaje que me recuerde que debo finalizar la tarea #1 primero.
 
@@ -22,23 +22,18 @@ Una vista previa de la aplicacion
 
 - El resto de tareas se pueden hacer en el orden que se quiera.
 
-### Instalacion
+### Instalación
 
-Clonar el repositorio:
-    git clone https://github.com/sknet91/Transporto
+- Clonar el repositorio:    git clone https://github.com/sknet91/Transporto
 
-Moverse a la raiz del proyecto:
-    cd Transporto
+- Moverse a la raíz del proyecto:    cd Transporto
 
-Instala dependencias:
-    npm install
+- Instala dependencias:    npm install
 
 ### Uso
 
-Ejecuta la aplicacion:
-    npm start
+- Ejecuta la aplicación:    npm start
 
-Abre la siguiente url:
-    http://localhost:3000/
+- Abre la siguiente url:    http://localhost:3000/
 
-Ya puedes utilizar la aplicacion, no olvides los requerimientos.
+Ya puedes utilizar la aplicación, no olvides los requerimientos.
