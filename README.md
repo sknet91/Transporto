@@ -8,6 +8,13 @@ Una vista previa de la aplicación.
 
 ![image](https://github.com/sknet91/Transporto/assets/11862310/44afbca8-4fd8-4824-9ae4-8219ff3cb806)
 
+## Deploy Vercel
+
+- La prueba puede ser visualizada en la siguiente URL:
+
+- https://transporto-2va2x1oq6-sknet91.vercel.app/
+
+
 ## Requerimientos
 
 - Cuando le dé clic a cualquier botón, me debe mostrar una página con un botón que diga “Finalizar tarea #X” (la X depende de la tarea), y cuando le dé clic a ese botón, me debe llevar de nuevo a la página de las 6 tarjetas, escondiendo el botón de la tarjeta que acabo de realizar. (Siguiendo buenas prácticas para el diseño UX cambie mostrar una página por una ventana modal, no dimensioné la posibilidad de que se quisiera revisar react router)
